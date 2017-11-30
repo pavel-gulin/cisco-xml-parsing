@@ -20,6 +20,11 @@
             </plugin>
         </plugins>
     </build>
-
-
+    <dependencies>
+        <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>Saxon-HE</artifactId>
+            <version>9.8.0-6</version>
+        </dependency>
+    </dependencies>
 </project>
