@@ -1,13 +1,9 @@
 import net.sf.saxon.s9api.*;
-
 import java.io.*;
 
-
 public class Application {
-
     private Application() {
     }
-
     public static void main(String[] argv) {
         if (argv.length !=2) {
             System.out.println("Usage: <input file name in format: file:/// with forward slashes> <output file name with backward slashes>");
@@ -61,5 +57,4 @@ public class Application {
             System.out.println(e);
         }
     }
-
 }
